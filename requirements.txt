@@ -1,0 +1,20 @@
+1. Notes App
+Create a web app in which users can add and store their notes. This is an excellent project for beginners. Some pointers to keep in mind while building a notes app are:
+
+- The user should be able to create, edit and delete a note.
+ 
+- When the user closes the browser window, the notes should be stored, and when the user returns, the data should be retrieved back.
+ 
+- Users should be able to see the date and time of the creation of the note.
+ 
+- After you have made a basic app, try adding the following features to take it up to the next level-
+ 
+- The app should be able to take multiple entries per note, with the new entry having the current date and time.
+ 
+- Users should be able to search for a note based on a keyword.
+ 
+- Users should be able to sort and filter using date and time information.
+ 
+- To make the project even more challenging, display a calendar layout so that the user can click on any date to view the notes of that particular day.
+ 
+Some example projects you can refer:

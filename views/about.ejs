@@ -9,12 +9,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NotesApp</title>
     <style>
-        .section{
+        .section {
             margin: 20px;
+            display: flex;
         }
+
         #logo {
-            width: 150px;
-            margin: 5px 20px;
+            width: 125px;
+            margin: 8px 25px;
+            margin-left: 35px;
+        }
+
+        .divbtn {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
         }
 
         button[type=submit] {
@@ -33,14 +43,21 @@
 </head>
 
 <body>
+    <header>
+        <div>
+            <img id="logo" src="../public/img/logo.png" alt="logoImg">
+        </div>
+    </header>
     <section class="section">
+
         <div>
-            <img id="logo" src="/public/img/logo.png" alt="logo">
+            <h4>
+                <%= name %>
+            </h4>
+                        <!-- 3 pads in a horizontal decided -->
         </div>
-        <div>
-            <!-- 3 pads in a horizontal decided -->
-        </div>
-        <div>
+
+        <div class="divbtn">
             <!-- add note button -->
             <button type="submit">ADD NOTE</button>
         </div>
