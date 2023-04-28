@@ -6,13 +6,12 @@ const port = 3000
 
 const userroute = require('./routes/notesRouter')
 
-// //to show static html page in express js
-// //built-in middleware 
-// const staticPath = path.join(__dirname ,'/view')
-// app.use(express.static(staticPath))
-
 // set the view engine to ejs
 app.set('view engine', 'ejs');
+
+//built-in middleware 
+const staticPath = path.join(__dirname ,'./public')
+app.use(express.static(staticPath))
 
 app.get('/', (req, res) => {
     res.render('index', {
