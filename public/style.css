@@ -14,9 +14,26 @@ body {
     /* background-color: #fcc71e; */
 }
 
+#logo{
+    margin-left: 20px;
+    float: left;
+    width: 125px;
+}
+#headerid{
+    margin-top: 15px;
+    margin-bottom: 30px;
+    margin-right: 160px;
+}
+#footerid{
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.icons{
+    width: 23px;
+}
 .add {
     width: 280px;
-    height: 30px;
+    height: 27px;
     font-size: 16px;
     background-color: rgb(51, 51, 51);
     color: rgb(255, 255, 255);
@@ -45,6 +62,13 @@ body {
     overflow-y: scroll;
 }
 
+div.sticky{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+}
+
 .note .tools {
     background-color: #fcc71e;
     display: flex;
@@ -70,7 +94,9 @@ body {
     width: 100%;
     padding: 20px;
 }
-
+[alt]{
+    color: black;
+}
 .main {
     padding: 20px;
 }

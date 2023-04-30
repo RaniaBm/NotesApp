@@ -10,13 +10,11 @@ const userroute = require('./routes/notesRouter')
 app.set('view engine', 'ejs');
 
 //built-in middleware 
-const staticPath = path.join(__dirname ,'./public')
+const staticPath = path.join(__dirname, './public')
 app.use(express.static(staticPath))
 
 app.get('/', (req, res) => {
-    res.render('index', {
-        name: "Rania"
-    })
+    res.render('index')
 })
 app.get('/about', (req, res) => {
     res.render('about', {
