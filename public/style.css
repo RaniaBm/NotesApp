@@ -1,86 +1,103 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
-* {
-box-sizing: border-box;
-outline: none;
-}
-body {
-background-color: #ffffff;
-font-family: 'Poppins', sans-serif;
-display: flex;
-flex-wrap: wrap;
-margin: 0;
-padding-top: 3rem;
-}
-.add {
-    padding: 0px 10px;
-    width: 300px;
-    height: 45px;
-    margin-top: 38px;
-    margin-left: 20px;
-    margin-right: 55px;
-    border-radius: 24px;
 
-    float: right;
-    font-size: 15px;
-    color: rgb(0, 0, 0);
-    background-color: #fcc71e;
-    cursor: pointer;
-    /* border: 1px solid rgb(0, 0, 0); */
-    transition: .5s;
+/* * {
+    box-sizing: border-box;
+    outline: none;
+} */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    /* display: flex;
+    flex-wrap: wrap; */
+    padding-top: 1rem;
+    background-color: #ffd447;
+    /* background-color: #fcc71e; */
 }
-.add:hover{
-    background-color: rgb(0, 0, 0);
+
+.add {
+    width: 280px;
+    height: 30px;
+    font-size: 16px;
+    background-color: rgb(51, 51, 51);
     color: rgb(255, 255, 255);
+    cursor: pointer;
+    border: 1px solid rgb(0, 0, 0);
+    transition: .5s;
+    float: right;
+    margin-right: 68px;
 }
+
+.add:hover {
+    /* background-color: #9ec862; */
+    background-color: #ffc400;
+    color: rgb(51, 51, 51);
+}
+
 .add:active {
-transform: scale(0.98);
+    transform: scale(0.98);
 }
-/* .note {
-background-color: #bbbbbb;
-box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.1);
-margin: 30px 20px;
-height: 400px;
-width: 400px;
-overflow-y: scroll;
-} */
-/* .note .tools {
-background-color: #fcc71e;
-display: flex;
-justify-content: flex-end;
-padding: 0.5rem;
-} */
-/* .note .tools button {
-background-color: transparent;
-border: none;
-color: #6a6a6a;
-cursor: pointer;
-font-size: 1rem;
-margin-left: 0.5rem;
-} */
-/* .note textarea {
-outline: none;
-font-family: inherit;
-font-size: 1.2rem;
-border: none;
-height: 400px;
-width: 100%;
-padding: 20px;
-} */
+
+.note {
+    box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.1);
+    margin: 30px 20px;
+    height: 400px;
+    width: 400px;
+    overflow-y: scroll;
+}
+
+.note .tools {
+    background-color: #fcc71e;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.6rem;
+}
+
+.note .tools button {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-left: 0.5rem;
+}
+
+.note textarea {
+    outline: none;
+    font-family: inherit;
+    font-size: 1.2rem;
+    border: none;
+    height: 400px;
+    width: 100%;
+    padding: 20px;
+}
+
 .main {
-padding: 20px;
+    padding: 20px;
 }
+
 .hidden {
-display: none;
+    display: none;
 }
-.mid{
+
+.mid {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-a{
-    color:#fcc71e;
+
+a {
+    color: rgb(51, 51, 51);
     text-decoration: none;
 }
-a:hover{
+
+a:hover {
     color: rgb(53, 53, 53);
+}
+
+.container {
+    border: 2px solid black;
+    width: 1200px;
+    height: 450px;
+    margin-left: 65px;
+    background-color: #ffffff;
 }
