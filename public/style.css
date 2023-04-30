@@ -7,36 +7,39 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    /* display: flex;
-    flex-wrap: wrap; */
     padding-top: 1rem;
-    background-color: #ffd447;
+    background-color: #ffffff;
     /* background-color: #fcc71e; */
 }
 
-#logo{
+#logo {
     margin-left: 20px;
     float: left;
     width: 125px;
 }
-#headerid{
+
+#headerid {
     margin-top: 15px;
     margin-bottom: 30px;
     margin-right: 160px;
 }
-#footerid{
+
+#footerid {
     margin-top: 15px;
     margin-bottom: 30px;
 }
-.icons{
+
+.icons {
     width: 23px;
 }
+
 .add {
     width: 280px;
     height: 27px;
     font-size: 16px;
-    background-color: rgb(51, 51, 51);
-    color: rgb(255, 255, 255);
+    color: rgb(51, 51, 51);
+    background-color: #fcc71e;
+
     cursor: pointer;
     border: 1px solid rgb(0, 0, 0);
     transition: .5s;
@@ -46,8 +49,8 @@ body {
 
 .add:hover {
     /* background-color: #9ec862; */
-    background-color: #ffc400;
-    color: rgb(51, 51, 51);
+    background-color: rgb(51, 51, 51);
+    color: rgb(255, 255, 255);
 }
 
 .add:active {
@@ -60,9 +63,10 @@ body {
     height: 400px;
     width: 400px;
     overflow-y: scroll;
+    /* padding: 5px; */
 }
 
-div.sticky{
+div.sticky {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
@@ -91,12 +95,14 @@ div.sticky{
     font-size: 1.2rem;
     border: none;
     height: 400px;
-    width: 100%;
+    width: 343px;
     padding: 20px;
 }
-[alt]{
+
+[alt] {
     color: black;
 }
+
 .main {
     padding: 20px;
 }
@@ -125,5 +131,6 @@ a:hover {
     width: 1200px;
     height: 450px;
     margin-left: 65px;
-    background-color: #ffffff;
+    background-color: #ffd54d;
+    overflow-y: scroll;
 }

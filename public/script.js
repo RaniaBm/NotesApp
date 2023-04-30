@@ -13,9 +13,9 @@ function addNewNote(text = '') {
     note.classList.add('note')
 
     note.innerHTML = `
-    <div class="tools">
-        <button class="edit"><i class="fas fa-edit"></i></button>
-        <button class="delete"><i class="fas fa-trash-alt"></i></button>
+    <div class="tools sticky">
+        <button class="edit"><img class="icons" src="/img/editImg.png" alt="editBtn"></button>
+        <button class="delete"><img class="icons" src="/img/deleteImg.png" alt="deleteBtn"></i></button>
     </div>
 
     <div class="main ${text ? "" : "hidden"}"></div>
