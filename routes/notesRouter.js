@@ -3,6 +3,6 @@ const router = express.Router()
 
 const r = require('../controllers/notesController.controllers')
 
-router.get('/homepage', r.home)
+router.get('/', r.home)
 
 module.exports = router
