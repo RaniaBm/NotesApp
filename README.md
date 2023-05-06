@@ -4,6 +4,9 @@
 
 The Notes Application is a simple web-based application that allows users to create, edit and delete notes. The application is built using Node.js, Express, EJS, JavaScript, and CSS.
 
+## User Interface
+
+![0](https://user-images.githubusercontent.com/128255568/236644850-23b76d94-87f7-45fe-ac5f-8ef2399dcfe9.png)
 
 
 ## Features
