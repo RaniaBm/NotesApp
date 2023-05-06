@@ -8,6 +8,7 @@ The Notes Application is a simple web-based application that allows users to cre
 
 ![0](https://user-images.githubusercontent.com/128255568/236644850-23b76d94-87f7-45fe-ac5f-8ef2399dcfe9.png)
 
+![x](https://user-images.githubusercontent.com/128255568/236645249-84f1387b-17a4-419e-b335-021c2f10dda3.png)
 
 ## Features
 
