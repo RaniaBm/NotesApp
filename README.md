@@ -4,6 +4,10 @@
 
 The Notes Application is a simple web-based application that allows users to create, edit and delete notes. The application is built using Node.js, Express, EJS, JavaScript, and CSS.
 
+
+
+## Features
+
 The Notes Application has the following features:
 
  * Users can create new notes by clicking the "Add Note" button.
@@ -54,3 +58,8 @@ To run this code, follow these steps:
    node index.js 
    
 7. Open your web browser and go to "http://127.0.0.1:3000/" to see the Notes App in action.
+
+
+
+## Feedback
+you can submit your feed back at raniabm21@gmail.com
